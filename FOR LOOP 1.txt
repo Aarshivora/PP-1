@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int i;
+    clrscr();
+    printf("---Attendance roll call---\n")
+    for(i=1; i <= 10; i++)
+    {
+        printf("roll no: %d\n", i);
+    }
+    printf("attendance complected!");
+    getch();
+}
